@@ -1,0 +1,8 @@
+baseURL = 'https://arka-2004.github.io/'
+languageCode = 'en-us'
+title = 'Arkapriyo Hore'
+theme = 'saral'
+
+[params]
+    description = 'My Website'
+    author = 'Arkapriyo'
