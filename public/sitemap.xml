@@ -11,6 +11,8 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-11-22T02:27:08+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/blog-2/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
