@@ -46,7 +46,7 @@ So we have
 
 @\Rightarrow (x^n-1)(x^n+1)=\prod_{d \mid 2n}\Phi_d(x)@
 
-@\Rightarrow (x^n+1)=\prod_{{d \mid 2n}{\hspace{0.1cm}d\not | n}}\Phi_d(x)@.
+@\Rightarrow (x^n+1)=\prod_{d \mid 2n}{\hspace{0.1cm}d\not | n}}\Phi_d(x)@.
 
 
 Now set n=@r^m@ for some @r \in\mathbb{N}@
