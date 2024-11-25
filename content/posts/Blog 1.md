@@ -27,24 +27,24 @@ converges@\rightarrow 0@. And hence our previous line is justified which complet
 \\
 \textbf{Fact:}
 \begin{enumerate}
-    \item @x^n-1=\prod_{d | n}\Phi_d(x)@\\
+    \item @x^n-1=\prod_{d \mid n}\Phi_d(x)@\\
 Where @\Phi_d(x)@ is the d-th cyclotomic polynomial.
 \item deg(@\Phi_d(x)@) is @\varphi(d)@.
 \end{enumerate}
 So we have\\
-@x^{2n}-1=\prod_{d | 2n}\Phi_d(x)@\\
-@\Rightarrow (x^n-1)(x^n+1)=\prod_{d | 2n}\Phi_d(x)@\\
-@\Rightarrow (x^n+1)=\prod_{{d | 2n}{\hspace{0.1cm}d\not | n}}\Phi_d(x)@.\\
+@x^{2n}-1=\prod_{d \mid 2n}\Phi_d(x)@\\
+@\Rightarrow (x^n-1)(x^n+1)=\prod_{d \mid 2n}\Phi_d(x)@\\
+@\Rightarrow (x^n+1)=\prod_{{d \mid 2n}{\hspace{0.1cm}d\not | n}}\Phi_d(x)@.\\
 \\
 Now set n=@r^m@ for some @r \in\mathbb{N}@\\
 @\Rightarrow n^k=r^{mk}@\\
 Take @\epsilon_o=\frac{\epsilon}{k}@.\\
-If @p | (n^k+1)@ then @p@ should divide some @\Phi_d(r^k)@ where @d | 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@.(Here we would refer @p@ as the largest prime factor of @n^k+1@).\\
+If @p | (n^k+1)@ then @p@ should divide some @\Phi_d(r^k)@ where @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@.(Here we would refer @p@ as the largest prime factor of @n^k+1@).\\
 \\
 **{Claim 3:}**\\
-If @d|2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@ then we have @\varphi(d)<\varphi(2m)@.\\
+If @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@ then we have @\varphi(d)<\varphi(2m)@.\\
 Proof:\\
-Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that @d | 2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\not | }m@ it is quite straight forward to see.\\
+Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that @d \mid 2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\not | }m@ it is quite straight forward to see.\\
 \\
 Now since by \textbf{Claim2} we have for any @\delta >0@ we have infinitely many @m\in\mathbb{N}@ for which @\frac{\varphi(2m)}{2m}<\delta@.\\
 Setting @\delta=\frac{\epsilon_o}{2}@ we have infinitely many @m\in\mathbb{N}@  such that
