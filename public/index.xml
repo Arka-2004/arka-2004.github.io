@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Arkapriyo Hore</title>
+    <title>Arkapriyo Hore</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in About on Arkapriyo Hore</description>
+    <description>Recent content on Arkapriyo Hore</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2024 02:27:08 +0530</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/blog-1/</link>
       <pubDate>Fri, 22 Nov 2024 02:27:08 +0530</pubDate>
       <guid>http://localhost:1313/posts/blog-1/</guid>
-      <description>&lt;p&gt;In this blog post we would be looking at some bounds on largest prime factors of numbers of the form @n^k + 1@&lt;/p&gt;&#xA;&lt;p&gt;Let &lt;strong&gt;@k@&lt;/strong&gt; be a positive integer, and let &lt;strong&gt;@\epsilon@&lt;/strong&gt; be a positive real number. Prove that there are infinitely many positive integers &lt;strong&gt;@n@&lt;/strong&gt;, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@&lt;/p&gt;&#xA;&lt;p&gt;In the whole solution @k@ and @ \epsilon @ is fixed.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this blog post we would be looking at some bounds on largest prime factors of numbers of the form @n^k + 1@.&lt;/p&gt;&#xA;&lt;p&gt;Let @k@ be a positive integer, and let @\epsilon@ be a positive real number. Prove that there are infinitely many positive integers @n@, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@.&lt;/p&gt;&#xA;&lt;p&gt;In the whole solution @k@ and @ \epsilon @ is fixed.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

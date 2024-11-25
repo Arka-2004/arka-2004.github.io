@@ -4,9 +4,9 @@ draft = false
 title = 'On a special property of numbers of the form @n^k + 1@'
 +++
 
-In this blog post we would be looking at some bounds on largest prime factors of numbers of the form @n^k + 1@ 
+In this blog post we would be looking at some bounds on largest prime factors of numbers of the form @n^k + 1@.
 
-Let **@k@** be a positive integer, and let **@\epsilon@** be a positive real number. Prove that there are infinitely many positive integers **@n@**, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@ 
+Let @k@ be a positive integer, and let @\epsilon@ be a positive real number. Prove that there are infinitely many positive integers @n@, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@.
 
 In the whole solution @k@ and @ \epsilon @ is fixed.
 
