@@ -8,14 +8,14 @@ In this blog post we would be looking at some bounds on largest prime factors of
 
 Let @k@ be a positive integer, and let @\epsilon@ be a positive real number. Prove that there are infinitely many positive integers @n@, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@ 
 
-In the whole solution '@k@' and @ \epsilon @ is fixed.
+In the whole solution @k@ and @ \epsilon @ is fixed.
 
 **Claim 1:**
 
 The set of prime divisors of \{@n^k+1@ :@n\in\mathbb{N}@\} is an infinite set.
 
 _Proof:_
-For the sake of contradiction say @\exists@ only finitely many of them say @\{p_1,p_2,\dots,p_r\}@.Now set @n=p_1p_2{\dots}p_r@. Now see none of @p_i@,where @i\in\{1,2,\dots,r\}@ divide @n^k+1@. Which is a contradiction.
+For the sake of contradiction say @\exists@ only finitely many of them say @{p_1,p_2,\dots,p_r}@.Now set @n=p_1p_2{\dots}p_r@. Now see none of @p_i@,where @i\in\{1,2,\dots,r\}@ divide @n^k+1@. Which is a contradiction.
 
 Hence the set of largest prime @p@ such that @p | (n^k+1)@ where @n\in\{1,2,3,\dots\}@ is infinite. If not say there are finitely many of them, say for each @n\in \mathbb{N}@ @n^k+1@ has a largest prime factor among the set @\{p_1,p_2,\dots,p_k\}@ but now again setting @n=p_1p_2{\dots}p_k@ we get a contradiction.
 
