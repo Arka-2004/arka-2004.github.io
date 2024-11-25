@@ -10,16 +10,16 @@ Let @k@ be a positive integer, and let @\epsilon@ be a positive real number. Pro
 
 In the whole solution '@k@' and @ \epsilon @ is fixed.
 
-**{Claim 1:}**
+**Claim 1:**
 
 The set of prime divisors of \{@n^k+1@ :@n\in\mathbb{N}@\} is an infinite set.
 
-Proof:
+_Proof:_
 For the sake of contradiction say @\exists@ only finitely many of them say @\{p_1,p_2,\dots,p_r\}@.Now set @n=p_1p_2{\dots}p_r@. Now see none of @p_i@,where @i\in\{1,2,\dots,r\}@ divide @n^k+1@. Which is a contradiction.
 
 Hence the set of largest prime @p@ such that @p | (n^k+1)@ where @n\in\{1,2,3,\dots\}@ is infinite. If not say there are finitely many of them, say for each @n\in \mathbb{N}@ @n^k+1@ has a largest prime factor among the set @\{p_1,p_2,\dots,p_k\}@ but now again setting @n=p_1p_2{\dots}p_k@ we get a contradiction.
 
-**{Claim 2:}**
+**Claim 2:**
 
 @\forall\hspace{0.2 cm} \delta > 0 \hspace{0.2 cm}\exists@ infinitely many @m \in \mathbb{N}@
 such that  @\frac{\varphi(2m)}{2m}<\delta@ ,where @\varphi(n)@ is the euler totient function.
@@ -33,7 +33,7 @@ Since @\sum_{p | 2m} \frac{1}{p} @ diverges @\rightarrow\infty@ so @e^{\left(-\s
 converges@\rightarrow 0@. And hence our previous line is justified which completes our proof.
 
 
-**{Fact:}**
+**Fact:**
 
 -  @x^n-1=\prod_{d \mid n}\Phi_d(x)@
 
@@ -58,7 +58,7 @@ Take @\epsilon_o=\frac{\epsilon}{k}@.
 If @p | (n^k+1)@ then @p@ should divide some @\Phi_d(r^k)@ where @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@.(Here we would refer @p@ as the largest prime factor of @n^k+1@).
 
 
-**{Claim 3:}**
+**Claim 3:**
 
 If @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@ then we have @\varphi(d)<\varphi(2m)@.
 
@@ -66,7 +66,7 @@ If @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@ then we have @\var
 Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that @d \mid 2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\not | }m@ it is quite straight forward to see.
 
 
-Now since by \textbf{Claim2} we have for any @\delta >0@ we have infinitely many @m\in\mathbb{N}@ for which @\frac{\varphi(2m)}{2m}<\delta@.
+Now since by **Claim2** we have for any @\delta >0@ we have infinitely many @m\in\mathbb{N}@ for which @\frac{\varphi(2m)}{2m}<\delta@.
 
 Setting @\delta=\frac{\epsilon_o}{2}@ we have infinitely many @m\in\mathbb{N}@  such that
 \begin{center}
