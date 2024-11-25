@@ -86,4 +86,4 @@ Now for large enough @x \in \mathbb{N}@ we have @\Phi_d(x)\approx x^{\varphi(d)}
 so we have @p\le\Phi_d(r^k)\approx r^{k\varphi(d)}\le r^{k\varphi(2m)}<r^{km\epsilon_o}=n^{k\epsilon_o}=n^{\epsilon}@.
 
 
-Now since from \textbf{Eqn 1} we get infinitely many such m's for which @\varphi(d)<m\epsilon_o@ and since @n=r^m@ we get infinitely many such @n \in\mathbb{N}@ and for all of them we have @p<n^{\epsilon}@  and hence this completes our proof. 
+Now since from **Eqn 1** we get infinitely many such m's for which @\varphi(d)<m\epsilon_o@ and since @n=r^m@ we get infinitely many such @n \in\mathbb{N}@ and for all of them we have @p<n^{\epsilon}@  and hence this completes our proof. 

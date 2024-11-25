@@ -76,12 +76,12 @@
   <section class="default"><p>In this blog post we would be looking at some bounds on largest prime factors of numbers of the form @n^k + 1@</p>
 <p>Let @k@ be a positive integer, and let @\epsilon@ be a positive real number. Prove that there are infinitely many positive integers @n@, such that the largest prime factor of @n^k + 1@ is less than @n^\epsilon@</p>
 <p>In the whole solution &lsquo;@k@&rsquo; and @ \epsilon @ is fixed.</p>
-<p><strong>{Claim 1:}</strong></p>
+<p><strong>Claim 1:</strong></p>
 <p>The set of prime divisors of {@n^k+1@ :@n\in\mathbb{N}@} is an infinite set.</p>
-<p>Proof:
+<p><em>Proof:</em>
 For the sake of contradiction say @\exists@ only finitely many of them say @{p_1,p_2,\dots,p_r}@.Now set @n=p_1p_2{\dots}p_r@. Now see none of @p_i@,where @i\in{1,2,\dots,r}@ divide @n^k+1@. Which is a contradiction.</p>
 <p>Hence the set of largest prime @p@ such that @p | (n^k+1)@ where @n\in{1,2,3,\dots}@ is infinite. If not say there are finitely many of them, say for each @n\in \mathbb{N}@ @n^k+1@ has a largest prime factor among the set @{p_1,p_2,\dots,p_k}@ but now again setting @n=p_1p_2{\dots}p_k@ we get a contradiction.</p>
-<p><strong>{Claim 2:}</strong></p>
+<p><strong>Claim 2:</strong></p>
 <p>@\forall\hspace{0.2 cm} \delta &gt; 0 \hspace{0.2 cm}\exists@ infinitely many @m \in \mathbb{N}@
 such that  @\frac{\varphi(2m)}{2m}&lt;\delta@ ,where @\varphi(n)@ is the euler totient function.</p>
 <p>Proof:
@@ -89,7 +89,7 @@ Let the odd primes be @p_1&lt;p_2&lt;&hellip;@ and set @m=p_1p_2&hellip; p_k@. T
 <p>@\lim_{k\to\infty}\frac{\varphi(2m)}{2m}=\lim_{k\to\infty}\prod_{p|2m}{\left(1-\frac{1}{p}\right)}&lt;e^{\lim_{k\to\infty}\left(-\sum_{p|2m} \left(\frac{1}{p} \right)\right)}&lt;\delta@</p>
 <p>Since @\sum_{p | 2m} \frac{1}{p} @ diverges @\rightarrow\infty@ so @e^{\left(-\sum_{p | 2m} \left(\frac{1}{p} \right)\right)}@
 converges@\rightarrow 0@. And hence our previous line is justified which completes our proof.</p>
-<p><strong>{Fact:}</strong></p>
+<p><strong>Fact:</strong></p>
 <ul>
 <li>@x^n-1=\prod_{d \mid n}\Phi_d(x)@</li>
 </ul>
@@ -105,11 +105,11 @@ converges@\rightarrow 0@. And hence our previous line is justified which complet
 <p>@\Rightarrow n^k=r^{mk}@</p>
 <p>Take @\epsilon_o=\frac{\epsilon}{k}@.</p>
 <p>If @p | (n^k+1)@ then @p@ should divide some @\Phi_d(r^k)@ where @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@.(Here we would refer @p@ as the largest prime factor of @n^k+1@).</p>
-<p><strong>{Claim 3:}</strong></p>
+<p><strong>Claim 3:</strong></p>
 <p>If @d \mid 2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\not | }m@ then we have @\varphi(d)&lt;\varphi(2m)@.</p>
 <p><strong>Proof:</strong>
 Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that @d \mid 2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\not | }m@ it is quite straight forward to see.</p>
-<p>Now since by \textbf{Claim2} we have for any @\delta &gt;0@ we have infinitely many @m\in\mathbb{N}@ for which @\frac{\varphi(2m)}{2m}&lt;\delta@.</p>
+<p>Now since by <strong>Claim2</strong> we have for any @\delta &gt;0@ we have infinitely many @m\in\mathbb{N}@ for which @\frac{\varphi(2m)}{2m}&lt;\delta@.</p>
 <p>Setting @\delta=\frac{\epsilon_o}{2}@ we have infinitely many @m\in\mathbb{N}@  such that
 \begin{center}
 @\frac{\varphi(2m)}{2m}&lt;\frac{\epsilon_o}{2}@</p>
@@ -122,7 +122,7 @@ Since @p | \Phi_d(r^k)@ so we should have @p\le\Phi_d(r^k)@</p>
 <p>Now for large enough @x \in \mathbb{N}@ we have @\Phi_d(x)\approx x^{\varphi(d)}@</p>
 <p>@\Rightarrow \Phi_d(r^k)\approx r^{k\varphi(d)}@</p>
 <p>so we have @p\le\Phi_d(r^k)\approx r^{k\varphi(d)}\le r^{k\varphi(2m)}&lt;r^{km\epsilon_o}=n^{k\epsilon_o}=n^{\epsilon}@.</p>
-<p>Now since from \textbf{Eqn 1} we get infinitely many such m&rsquo;s for which @\varphi(d)&lt;m\epsilon_o@ and since @n=r^m@ we get infinitely many such @n \in\mathbb{N}@ and for all of them we have @p&lt;n^{\epsilon}@  and hence this completes our proof.</p>
+<p>Now since from <strong>Eqn 1</strong> we get infinitely many such m&rsquo;s for which @\varphi(d)&lt;m\epsilon_o@ and since @n=r^m@ we get infinitely many such @n \in\mathbb{N}@ and for all of them we have @p&lt;n^{\epsilon}@  and hence this completes our proof.</p>
 </section>
   
 </main>
